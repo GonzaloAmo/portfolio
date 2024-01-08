@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/style2.css" />
+    <!--Box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Gonzalo Amo</title>
+  </head>
+  <body>
+    <!-- Header disiño-->
+    <header class="header">
+      <a href="#" class="logo">GNZLDevWorks</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active"  >Home</a>
+        <a href="#about" >About</a>
+        <a href="#services" >Services</a>
+        <a href="#portfolio" >Portfolio</a>
+        <a href="#contact" >Contact</a>
+      </nav>
+    </header>
+    <!--Home section  design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3> Hello It's,Me</h3>
+        <h1>Gonzalo Amo</h1>
+        <h3>And I'm a <span>Junior programmer</span></h3>
+        <p>
+          I'm currently pursuing a Higher Level Education Cycle in Web Application Development. Prior to this, I completed a Formative Cycle of Microcomputer Systems and Networks.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/GonzaloAmo/"  target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/gnzl_amo/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <a href="" class="btn" name="btn" id="download">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img
+          src="img/cara2.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>
+              I am an active student, content with what I am studying, and eager to further my studies soon with the Higher Level Education Cycle in Cross-platform Web Application Development.
+            </p>
+        </div>
+    </section>
+
+    <!--services section design-->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            My graphic design service delivers unique visuals, defining my personal brand identity through creative precision. From logos to striking visuals, I craft designs that captivate audiences and effectively communicate my essence.
+          </p>
+        </div>
+    
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            In today's digital world, I specialize in crafting functional, responsive websites. My focus on user experience ensures seamless interactions across various devices, providing custom solutions that blend innovation and usability.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--Portofolio section design-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/principal.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Trilogy</h4>
+            <p>
+              You can follow the link to the project's website and take a closer look on my GitHub.
+            </p>
+            <a href="https://trilogyrgda.github.io/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/biblio.PNG" alt="" />
+          <div class="portfolio-layer">
+            <h4>Virtual Library</h4>
+            <p>
+              Follow the link to GitHub for more details.
+            </p>
+            <a href="https://github.com/GonzaloAmo/Biblioteca" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact section design-->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="https://formsubmit.co/gonzalamocano@gmail.com" method="POST"  id="contact-form">
+        <div class="input-box">
+          <input type="text" name="name" id="name" placeholder="Full Name *" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address *"
+          />
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="number"
+            id="number"
+            placeholder="Mobile Number"
+          />
+          <input
+            type="text"
+            name="subject"
+            id=""
+            placeholder="Email Subject *"
+          />
+        </div>
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+        <input type="hidden" name="_next" value="ENLACE DE MI PAGINA WEB EN GITHUB" />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
+    </section>
+
+    <!--Footer section design-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 by Gonzalo Amo | All Rights Reserved.
+        </p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bxs-chevrons-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
